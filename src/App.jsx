@@ -4,7 +4,7 @@ import RecipePage from './pages/RecipePage';
 
 function App() {
   return (
-    <Router basename="/vite-project">
+    <Router basename="/upload-test">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/recipe" element={<RecipePage />} />
